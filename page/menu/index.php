@@ -1,7 +1,8 @@
 <?php
-include 'components/templates/header.component.php';
-include 'handlers/menu.handler.php';
-include 'utils/display.menu.php';
+require_once BASE_PATH . '/components/templates/header.component.php';
+require BASE_PATH . '/handlers/menu.handlers.php';
+require BASE_PATH . '/utils/display.menu.php';
+
 ?>
 
 <main class="menu mb-5">
@@ -11,4 +12,4 @@ include 'utils/display.menu.php';
     </div>
 </main>
 
-<?php include 'components/templates/footer.component.php'; ?>
+<?php require_once BASE_PATH . '/components/templates/footer.component.php'; ?>
