@@ -35,7 +35,7 @@ if (!function_exists('displayMenu')) {
 
             echo '<div class="col-sm-6 col-md-4 col-lg-3">';
             echo '<div class="card h-100 shadow-sm">';
-            echo "<img src='page/menu/assets/img/{$dish['img']}' alt='{$nameFormatted}' class='card-img-top rounded'>";
+            echo "<img src='/page/menu/assets/img/{$dish['img']}' alt='{$nameFormatted}' class='card-img-top rounded'>";
             echo '<div class="card-body d-flex flex-column">';
             echo "<h5 class='card-title'>{$nameFormatted}</h5>";
             echo "<p class='card-text flex-grow-1'>{$descFormatted}</p>";
