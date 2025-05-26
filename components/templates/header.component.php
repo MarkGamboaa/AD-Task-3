@@ -15,8 +15,8 @@
             <h1 class="h3 mb-0">(PHP) Pinoy Hot Plates</h1>
             <nav>
                 <ul class="nav">
-                    <li class="nav-item"><a href="?page=home" class="nav-link text-white">Home</a></li>
-                    <li class="nav-item"><a href="?page=menu" class="nav-link text-white">Menu</a></li>
+                    <li class="nav-item"><a href="/index.php" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="/page/menu/index.php" class="nav-link text-white">Menu</a></li>
                 </ul>
             </nav>
         </div>
