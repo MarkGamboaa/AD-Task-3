@@ -14,6 +14,17 @@ require_once BASE_PATH . '/components/templates/header.component.php';
     </div>
 </section>
 
-
+<section class="mb-5">
+    <div class="d-flex justify-content-center">
+        <div class="about w-auto">
+            <h2 class="mb-3 text-center">Deliciously Different</h2>
+            <p class="text-center">
+                At (PHP) Pinoy Hot Plates, we bring people together with comforting flavors, cozy vibes, and
+                unforgettable food.<br>
+                Whether you're in for a quick bite or a full meal, we’ve got something you’ll love.
+            </p>
+        </div>
+    </div>
+</section>
 
 <?php require_once BASE_PATH . '/components/templates/footer.component.php'; ?>
